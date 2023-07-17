@@ -1,0 +1,61 @@
+.slider {
+    &__block {
+        width: 100%;
+        box-shadow:inset 0px 0px 3px 1px #333;
+        padding: 20px 0px 0px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        display: flex;
+        scroll-behavior: smooth;
+        &::-webkit-scrollbar {
+            width: 10px;
+            opacity: 0;
+        }
+    }
+
+    &__info {
+        padding: 0 10px 0;
+        max-width: 100%;
+        flex: 1 0 100%;
+    }
+
+    &__text {
+        max-width: 500px;
+    }
+
+    &__icon {
+        img {
+            max-width: 32px;
+        }
+    }
+
+    &__menu {
+        margin: 80px auto 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.menu {
+    &__column {
+        margin: 0 5px 0;
+
+        a {
+            display: block;
+            width: 15px;
+            height: 15px;
+            border: 2px solid #333;
+            border-radius: 50%;
+
+            &:active {
+                background-color: #333;
+            }
+
+            @media (max-width: 768px) {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}

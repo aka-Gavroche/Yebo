@@ -1,0 +1,49 @@
+.subscribe {
+    padding: 110px 0;
+
+    &__text {
+        margin: 40px auto;
+        text-align: center;
+        font-size: 24px;
+        color: rgb(132, 135, 137);
+        font-style: italic;
+        line-height: 1.417;     
+    }
+
+    &__form {
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 15px;
+            @media (max-width: 540px) {
+                flex-direction: column;
+                row-gap: 15px;
+            }
+        }
+    }
+
+    &__input {
+        max-height: 70px;
+        max-width: 100%;
+        font-size: 20px;
+        font-family: "Lato";
+        color: #92929280;
+        font-style: italic;
+        line-height: 1.2;
+        text-align: center;
+        border: 1px solid #d3d7d9;
+        padding: 25px 50px;
+    }
+
+    &__button {
+        max-height: 70px;
+        font-size: 24px;
+        color: #ffffff;
+        line-height: 1;
+        text-align: center;
+        padding: 25px 50px;
+        background-color: #64c29e;
+    }
+}
+  

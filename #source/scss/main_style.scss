@@ -1,0 +1,32 @@
+// імпортуємо шрифти
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+// імпортуємо файл нульового стилю
+@import "zero_style.scss"; 
+
+// імпортуємо головні та спільні блоки
+@import "basic_blocks.scss";
+
+// імпортуємо блок intro
+@import "intro.scss";
+
+// імпортуємо блок info
+@import "info.scss";
+
+// імпортуємо блок images
+@import "images.scss";
+
+// імпортуємо блок slider
+@import "slider.scss";
+
+// імпортуємо блок images-2
+@import "images-2.scss";
+
+// імпортуємо блок shop
+@import "shop.scss";
+
+// імпортуємо блок subscribe
+@import "subscribe.scss";
+
+// імпортуємо блок subscribe
+@import "footer.scss";
